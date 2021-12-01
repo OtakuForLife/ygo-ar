@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends CSGPolygon
+
+var max_speed = 0.0
+var direction = Vector3()
+var rot_speed = 0.0
+var speed_mul = randf()
+
+onready var timer = $Timer
+
+func _ready():
+	pass
+
+func _process(delta):
+	var velocity = direction.normalized() * max_speed * delta * speed_mul
+	translation.x += velocity.x
+	translation.y += velocity.y
+	translation.z += velocity.z
+	rotation.z += rot_speed
+
+func move(speed: float):
+	self.max_speed = speed
+	self.rot_speed = rand_range(-0.005, 0.005)
+	timer.start()
+
+func set_position_vec(vec: Vector3):
+	var degree = 0
+	self.direction = vec
+
+func init(card):
+	card.connect(\"explode\", self, \"move\")
+
+
+func _on_Timer_timeout():
+	queue_free()
+"
+
+[node name="Shard" type="CSGPolygon"]
+cast_shadow = 0
+depth = 0.001
+script = SubResource( 1 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.5
+one_shot = true
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

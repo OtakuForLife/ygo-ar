@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/FieldGround.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/PlayerSide.gd" type="Script" id=2]
+
+[node name="PlayerSide" type="Spatial"]
+script = ExtResource( 2 )
+
+[node name="Monster" type="Spatial" parent="."]
+
+[node name="Field1" parent="Monster" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -11.408 )
+
+[node name="Field2" parent="Monster" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -11.408 )
+
+[node name="Field3" parent="Monster" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11.4083 )
+
+[node name="Field4" parent="Monster" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -11.408 )
+
+[node name="Field5" parent="Monster" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -11.408 )
+
+[node name="SpellTrap" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10 )
+
+[node name="Field1" parent="SpellTrap" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -11.408 )
+
+[node name="Field2" parent="SpellTrap" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -11.408 )
+
+[node name="Field3" parent="SpellTrap" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11.4083 )
+
+[node name="Field4" parent="SpellTrap" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -11.408 )
+
+[node name="Field5" parent="SpellTrap" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -11.408 )

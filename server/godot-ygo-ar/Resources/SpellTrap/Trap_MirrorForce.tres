@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/CardInfo.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Images/Cards/Trap/mirror_force.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Mirror Force"
+card_image = ExtResource( 2 )
+card_type = 2
+card_monster_stars = 0
+card_monster_atk = 0
+card_monster_def = 0

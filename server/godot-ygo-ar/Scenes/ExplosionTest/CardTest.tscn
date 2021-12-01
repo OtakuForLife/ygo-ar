@@ -1,0 +1,180 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Images/Cards/Monster/flame_swordsman.jpg" type="Texture" id=1]
+[ext_resource path="res://Assets/Images/Cards/card_back.jpg" type="Texture" id=2]
+[ext_resource path="res://Scenes/ExplosionTest/card_shader.shader" type="Shader" id=4]
+
+[sub_resource type="GDScript" id=1]
+script/source = "tool
+extends Spatial
+
+signal explode(speed, direction)
+
+export(int, 1, 200, 1) var num_divisions = 1
+export(Texture) var FrontTexture setget set_front
+export(Resource) var shader
+
+const BackTexture = preload(\"res://Assets/Images/Cards/card_back.jpg\")
+const SHARD_SCENE = preload(\"res://Scenes/ExplosionTest/Shard.tscn\")
+
+onready var CardMesh = $CardMesh
+onready var Shards = $Shards
+onready var Sprites = $Sprites
+onready var FrontSprite = $Sprites/Front
+onready var BackSprite = $Sprites/Back
+onready var Position = $Position
+
+var backIm: Image = BackTexture.get_data()
+var frontIm: Image = null
+
+var save_points = PoolVector2Array()
+
+func set_front(texture):
+	FrontTexture = texture
+	if Engine.is_editor_hint() and is_inside_tree():
+		$Sprites/Front.texture = texture
+	frontIm = texture.get_data()
+
+func _ready():
+	save_points = PoolVector2Array(CardMesh.polygon)
+	
+	BackSprite.texture = BackTexture
+	FrontSprite.texture = FrontTexture
+	
+	backIm.decompress()
+	frontIm.decompress()
+	create_shards()
+
+func reset():
+	CardMesh.polygon = PoolVector2Array(save_points)
+	create_shards()
+
+func destroy():
+	for shard in Shards.get_children():
+		shard.queue_free()
+
+func create_shards():
+	var points = CardMesh.polygon
+	var offset = Vector2(abs(points[0].x), abs(points[0].y))
+	var mesh_size = Vector2(points[6].x - points[0].x, points[2].y - points[0].y)
+	
+	var front_image_size = FrontTexture.get_size()
+	var back_image_size = BackTexture.get_size()
+	
+	var max_x = points[6].x
+	var max_y = points[2].y
+	
+	for i in range(num_divisions-1):
+		var rand_x = rand_range(points[0].x, max_x)
+		var rand_y = rand_range(points[0].y, max_y)
+		points.append(Vector2(rand_x, rand_y))
+	
+	var delaunay_points = Geometry.triangulate_delaunay_2d(points)
+	
+	for i in range(len(delaunay_points) / 3):
+		var shard_points = PoolVector2Array()
+		for n in range(3):
+			var point = points[delaunay_points[i*3+n]]
+			shard_points.append(point)
+		
+#		var shard = CSGPolygon.new()
+#		shard.cast_shadow = false
+#		shard.polygon = shard_points
+#		shard.depth = 0.001
+		
+		var material = ShaderMaterial.new()
+		material.set_shader(shader.duplicate())
+		
+		var shard = SHARD_SCENE.instance()
+		
+		var point_a = shard_points[0] + offset
+		var point_b = shard_points[1] + offset
+		var point_c = shard_points[2] + offset
+		var center = (shard_points[0]  + shard_points[1]  + shard_points[2] ) / 3
+		
+		var max_triangle_x = max(max(point_a.x, point_b.x), point_c.x)
+		var max_triangle_y = max(max(point_a.y, point_b.y), point_c.y)
+		
+		var min_triangle_x = min(min(point_a.x, point_b.x), point_c.x)
+		var min_triangle_y = min(min(point_a.y, point_b.y), point_c.y)
+		
+		var rel_start_x = max(min_triangle_x / mesh_size.x,0)
+		var rel_start_y = max(min_triangle_y / mesh_size.y,0)
+		var rel_end_x = max(max_triangle_x / mesh_size.x,0)
+		var rel_end_y = max(max_triangle_y / mesh_size.y,0)
+		
+		
+		var front_image_x = rel_start_x * front_image_size.x
+		var front_image_y = rel_start_y * front_image_size.y
+		var front_image_end_x = rel_end_x * front_image_size.x
+		var front_image_end_y = rel_end_y * front_image_size.y
+		var front_image_width = front_image_end_x - front_image_x
+		var front_image_height = front_image_end_y - front_image_y
+		
+		var back_image_x = rel_start_x * back_image_size.x
+		var back_image_y = rel_start_y * back_image_size.y
+		var back_image_end_x = rel_end_x * back_image_size.x
+		var back_image_end_y = rel_end_y * back_image_size.y
+		var back_image_width = back_image_end_x - back_image_x
+		var back_image_height = back_image_end_y - back_image_y
+		
+		var front_rect = Rect2(int(abs(front_image_x)), int(abs(front_image_size.y - front_image_y - front_image_height)), int(abs(front_image_width)), int(abs(front_image_height)))
+		var back_rect = Rect2(int(abs(back_image_x)), int(abs(back_image_size.y - back_image_y - back_image_height)), int(abs(back_image_width)), int(abs(back_image_height)))
+
+		if !front_rect.has_no_area() and !back_rect.has_no_area():
+			var back_subimage = backIm.get_rect(back_rect)
+			var front_subimage = frontIm.get_rect(front_rect)
+			
+			var back_texture = ImageTexture.new()
+			back_texture.create_from_image(back_subimage)
+			var front_texture = ImageTexture.new()
+			front_texture.create_from_image(front_subimage)
+			
+			material.set_shader_param(\"back_sprite\", back_texture)
+			material.set_shader_param(\"front_sprite\", front_texture)
+			
+			Shards.add_child(shard)
+			
+			shard.set_material(material)
+			shard.set_polygon(shard_points)
+			
+			var direction = Position.translation + Vector3(center.x, center.y, 0)
+			
+			shard.set_position_vec(direction)
+			shard.init(self)
+		
+	Sprites.set_visible(false)
+
+func explode():
+	emit_signal(\"explode\", 25.0)
+"
+
+[node name="Card" type="Spatial"]
+script = SubResource( 1 )
+FrontTexture = ExtResource( 1 )
+shader = ExtResource( 4 )
+
+[node name="Sprites" type="Spatial" parent="."]
+
+[node name="Front" type="Sprite3D" parent="Sprites"]
+cast_shadow = 0
+double_sided = false
+texture = ExtResource( 1 )
+
+[node name="Back" type="Sprite3D" parent="Sprites"]
+transform = Transform( -1.3, 0, 3.25841e-07, 0, 1.3, 0, -4.23594e-07, 0, -1, 0, 0, 0 )
+cast_shadow = 0
+double_sided = false
+texture = ExtResource( 2 )
+
+[node name="CardMesh" type="CSGPolygon" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000284612, -0.0142598, -0.00217772 )
+visible = false
+cast_shadow = 0
+polygon = PoolVector2Array( -2.87638, -4.18844, -2.86522, -0.110561, -2.87114, 4.17478, -0.0385114, 4.18011, 2.87032, 4.18196, 2.86088, -0.114779, 2.85785, -4.13437, -0.1726, -4.16502 )
+depth = 0.001
+
+[node name="Shards" type="Spatial" parent="."]
+
+[node name="Position" type="Position3D" parent="."]
+visible = false
