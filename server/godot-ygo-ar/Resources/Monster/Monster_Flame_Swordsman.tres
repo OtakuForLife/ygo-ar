@@ -1,12 +1,12 @@
-[gd_resource type="Resource" load_steps=3 format=2]
+[gd_resource type="Resource" script_class="CardInfo" load_steps=3 format=3]
 
-[ext_resource path="res://Scripts/CardInfo.gd" type="Script" id=1]
-[ext_resource path="res://Assets/Images/Cards/Monster/flame_swordsman.jpg" type="Texture" id=2]
+[ext_resource type="Script" uid="uid://jg4juegothdy" path="res://Scripts/CardInfo.gd" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://daivuetf3svw" path="res://Assets/Images/Cards/Monster/flame_swordsman.jpg" id="2_tex"]
 
 [resource]
-script = ExtResource( 1 )
+script = ExtResource("1_script")
 card_name = "Flame Swordsman"
-card_image = ExtResource( 2 )
+card_image = ExtResource("2_tex")
 card_type = 0
 card_monster_stars = 0
 card_monster_atk = 0

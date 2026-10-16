@@ -1,8 +1,8 @@
-extends Spatial
+extends Node3D
 
-onready var default_field = $Monster/Field3
+@onready var default_field = $Monster/Field3
 
-onready var fields = [$Monster/Field1, $Monster/Field2, $Monster/Field3, $Monster/Field4, $Monster/Field5, 
+@onready var fields = [$Monster/Field1, $Monster/Field2, $Monster/Field3, $Monster/Field4, $Monster/Field5, 
 						$SpellTrap/Field1, $SpellTrap/Field2, $SpellTrap/Field3, $SpellTrap/Field4, $SpellTrap/Field5]
 
 func _ready():

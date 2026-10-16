@@ -1,0 +1,46 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1792156122
+default_env.tres::Environment::5315408823828590107::1791663648::0::1::::<><><>0<>0<><>::
+icon.png::CompressedTexture2D::907311118780631548::1782738099::1791662523::1::::<><><>0<>0<>98af5e010b74ec1ed9e83eef1bfde949<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+::res://Assets/::1782738099
+::res://Assets/Images/::1782738099
+::res://Assets/Images/Cards/::1791662525
+card_back.jpg::CompressedTexture2D::7625761646363956308::1782738099::1791662525::1::::<><><>0<>0<>0f0ed6edece897551973bf6673226920<>res://.godot/imported/card_back.jpg-9ea71d0d023259281a870c8e4f7986bb.s3tc.ctex::
+placeholder.png::CompressedTexture2D::3289927894997426255::1782738099::1791662525::1::::<><><>0<>0<>14c0ef719220a49e9379db66563ee81c<>res://.godot/imported/placeholder.png-0bf02b00ceffebe11035892670e5ddc8.s3tc.ctex::
+::res://Assets/Images/Cards/Monster/::1791663627
+flame_swordsman.jpg::CompressedTexture2D::211090826045529016::1782738099::1791663627::1::::<><><>0<>0<>3f44020b9ad293c5af5142994bc2abbb<>res://.godot/imported/flame_swordsman.jpg-c6f955e8ce9bee06267d7dbbdd0e5996.s3tc.ctex::
+kuriboh.png::CompressedTexture2D::4597763356112644638::1782738099::1791663627::1::::<><><>0<>0<>7befdcca272210e84403579d06241a29<>res://.godot/imported/kuriboh.png-e851a72505101d2bc0c8bf545afedccd.s3tc.ctex::
+::res://Assets/Images/Cards/Trap/::1791663627
+mirror_force.png::CompressedTexture2D::6916162706869644791::1782738099::1791663627::1::::<><><>0<>0<>1d213b4697cbbe415ca7a956c1da4405<>res://.godot/imported/mirror_force.png-74bce1513c8eea77ea88ffa1ff996e7a.s3tc.ctex::
+::res://Assets/Sound/::1791662524
+destroy sound.wav::AudioStreamWAV::6221716972767498883::1782738099::1791662524::1::::<><><>0<>0<>e1c2dcd670a4b9d9ab96ceb3629eae3d<>res://.godot/imported/destroy sound.wav-fd0f3b030654ebd221201b520d1b1649.sample::
+destroy sound_fast.wav::AudioStreamWAV::1189918743331003767::1782738099::1791662524::1::::<><><>0<>0<>89e2dd7ea35382abff17cd8481115e84<>res://.godot/imported/destroy sound_fast.wav-623de4093e7829381af13c7e526051c9.sample::
+::res://Resources/::1782738099
+CardDatabase.tres::Resource/CardDatabase::-1::1791663150::0::1::::<><><>0<>0<><>::uid://b4twj7dnmrdk4::::res://Scripts/CardDatabase.gd<>res://Resources/placeholder_card.tres<>res://Resources/Monster/Monster_Kuriboh.tres<>res://Resources/SpellTrap/Trap_MirrorForce.tres<>res://Resources/Monster/Monster_Flame_Swordsman.tres<>res://Resources/SpellTrap/Spell_Mystical_Space_Typhoon.tres
+placeholder_card.tres::Resource/CardInfo::-1::1791663144::0::1::::<><><>0<>0<><>::uid://jg4juegothdy::::res://Scripts/CardInfo.gd<>uid://bm4wvqk623kjf::::res://Assets/Images/Cards/placeholder.png
+::res://Resources/Monster/::1782738099
+Monster_Flame_Swordsman.tres::Resource/CardInfo::-1::1791663146::0::1::::<><><>0<>0<><>::uid://jg4juegothdy::::res://Scripts/CardInfo.gd<>uid://daivuetf3svw::::res://Assets/Images/Cards/Monster/flame_swordsman.jpg
+Monster_Kuriboh.tres::Resource/CardInfo::-1::1791663145::0::1::::<><><>0<>0<><>::uid://jg4juegothdy::::res://Scripts/CardInfo.gd<>uid://b6rgqxj15s5bu::::res://Assets/Images/Cards/Monster/kuriboh.png
+::res://Resources/SpellTrap/::1782738099
+Spell_Mystical_Space_Typhoon.tres::Resource/CardInfo::-1::1791663148::0::1::::<><><>0<>0<><>::uid://jg4juegothdy::::res://Scripts/CardInfo.gd<>uid://bm4wvqk623kjf::::res://Assets/Images/Cards/placeholder.png
+Trap_MirrorForce.tres::Resource/CardInfo::-1::1791663147::0::1::::<><><>0<>0<><>::uid://jg4juegothdy::::res://Scripts/CardInfo.gd<>uid://c5sigo37vkqih::::res://Assets/Images/Cards/Trap/mirror_force.png
+::res://Scenes/::1791662523
+Card.tscn::PackedScene::-1::1791663142::0::1::::<><><>0<>0<><>::uid://dgv8gejyha6e7::::res://Assets/Images/Cards/card_back.jpg<>res://Resources/placeholder_card.tres<>uid://clssd122u28ny::::res://Scripts/Card.gd<>uid://bm4wvqk623kjf::::res://Assets/Images/Cards/placeholder.png
+Field.tscn::PackedScene::-1::1791663128::0::1::::<><><>0<>0<><>::res://Scenes/FieldGround.tscn<>uid://d1tk6kk3be5xg::::res://Scripts/PlayerSide.gd
+FieldGround.tscn::PackedScene::-1::1791663130::0::1::::<><><>0<>0<><>::uid://slfexgpi4hh::::res://Scripts/FieldGround.gd<>res://Scenes/Card.tscn
+Main.tscn::PackedScene::-1::1791663125::0::1::::<><><>0<>0<><>::uid://b8chiuvrgoyl7::::res://Scenes/MovingCamera.gd<>uid://btgipw7svytn6::::res://Scripts/Main.gd<>uid://drto4u461jxmb::::res://Scripts/Server.gd<>res://Scenes/Field.tscn<>uid://ugrojsmyesc4::::res://Scenes/TestUI.gd
+MovingCamera.gd::GDScript::4707221668245787942::1791663111::0::1::::<>XROrigin3D<><>0<>0<><>::
+TestUI.gd::GDScript::1417220830370810825::1791662484::0::1::::<>Control<><>0<>0<><>::
+::res://Scenes/ExplosionTest/::1791662523
+CardTest.tscn::PackedScene::-1::1791663361::0::1::::<><><>0<>0<><>::uid://daivuetf3svw::::res://Assets/Images/Cards/Monster/flame_swordsman.jpg<>uid://dgv8gejyha6e7::::res://Assets/Images/Cards/card_back.jpg<>uid://dw5pjpsxckas0::::res://Scenes/ExplosionTest/card_shader.gdshader
+card_shader.gdshader::Shader::8766275587479262669::1791663114::0::1::::<><><>0<>0<><>::
+Shard.tscn::PackedScene::-1::1791663199::0::1::::<><><>0<>0<><>::
+TestScene.tscn::PackedScene::-1::1791663320::0::1::::<><><>0<>0<><>::res://Scenes/ExplosionTest/CardTest.tscn<>uid://c5sigo37vkqih::::res://Assets/Images/Cards/Trap/mirror_force.png<>uid://q7n11012l3pb::::res://Assets/Sound/destroy sound_fast.wav<>uid://b6rgqxj15s5bu::::res://Assets/Images/Cards/Monster/kuriboh.png
+::res://Scripts/::1791662523
+Card.gd::GDScript::5583177118800551310::1791663112::0::1::::<>Node3D<><>0<>1<><>::
+CardDatabase.gd::GDScript::4462473858498168613::1791663113::0::1::::CardDatabase<>Resource<><>0<>0<><>::
+CardInfo.gd::GDScript::645863781140318418::1791662484::0::1::::CardInfo<>Resource<><>0<>0<><>::
+FieldGround.gd::GDScript::37835861379939481::1791663437::0::1::::<>Node3D<><>0<>0<><>::
+Main.gd::GDScript::3732908707985091061::1791662484::0::1::::<>Node3D<><>0<>0<><>::
+PlayerSide.gd::GDScript::9024058234489263804::1791662484::0::1::::<>Node3D<><>0<>0<><>::
+Server.gd::GDScript::8392598492884916477::1791663113::0::1::::<>Node<><>0<>0<><>::

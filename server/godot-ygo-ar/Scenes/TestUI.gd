@@ -10,10 +10,10 @@ var action_id = 0
 var field_id = 0
 var card_id = 0
 
-onready var CardOptions = $MarginContainer2/MarginContainer/HBoxContainer/Cards
-onready var PlayerOption = $MarginContainer2/MarginContainer/HBoxContainer/Player
-onready var Fields = $MarginContainer2/MarginContainer/HBoxContainer/Fields
-onready var Action = $MarginContainer2/MarginContainer/HBoxContainer/Action
+@onready var CardOptions = $MarginContainer2/MarginContainer/HBoxContainer/Cards
+@onready var PlayerOption = $MarginContainer2/MarginContainer/HBoxContainer/Player
+@onready var Fields = $MarginContainer2/MarginContainer/HBoxContainer/Fields
+@onready var Action = $MarginContainer2/MarginContainer/HBoxContainer/Action
 
 func _ready():
 	PlayerOption.add_item("Player 1")

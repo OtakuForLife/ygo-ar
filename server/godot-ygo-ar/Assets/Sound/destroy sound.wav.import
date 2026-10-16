@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/destroy sound.wav-fd0f3b030654ebd221201b520d1b1649.sample"
+type="AudioStreamWAV"
+uid="uid://cuv31ft5lpqmd"
+path="res://.godot/imported/destroy sound.wav-fd0f3b030654ebd221201b520d1b1649.sample"
 
 [deps]
 
 source_file="res://Assets/Sound/destroy sound.wav"
-dest_files=[ "res://.import/destroy sound.wav-fd0f3b030654ebd221201b520d1b1649.sample" ]
+dest_files=["res://.godot/imported/destroy sound.wav-fd0f3b030654ebd221201b520d1b1649.sample"]
 
 [params]
 
@@ -17,5 +18,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

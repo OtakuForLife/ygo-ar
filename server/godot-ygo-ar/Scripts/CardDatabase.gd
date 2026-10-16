@@ -1,7 +1,7 @@
 extends Resource
 class_name CardDatabase
 
-export(Array, Resource) var card_resources = []
+@export var card_resources: Array[Resource] = []
 
 func _ready():
 	pass

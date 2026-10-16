@@ -1,8 +1,8 @@
 shader_type spatial;
-render_mode cull_disabled, diffuse_toon, specular_disabled, depth_test_disable, ambient_light_disabled, unshaded, blend_mix, depth_draw_opaque, shadows_disabled;
+render_mode cull_disabled, diffuse_toon, specular_disabled, depth_test_disabled, ambient_light_disabled, unshaded, blend_mix, depth_draw_opaque, shadows_disabled;
 
-uniform sampler2D back_sprite: hint_albedo;
-uniform sampler2D front_sprite: hint_albedo;
+uniform sampler2D back_sprite: source_color;
+uniform sampler2D front_sprite: source_color;
 
 void fragment() {
 	

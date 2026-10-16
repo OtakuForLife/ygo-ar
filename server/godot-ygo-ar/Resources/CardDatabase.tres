@@ -1,12 +1,12 @@
-[gd_resource type="Resource" load_steps=7 format=2]
+[gd_resource type="Resource" script_class="CardDatabase" load_steps=7 format=3]
 
-[ext_resource path="res://Scripts/CardDatabase.gd" type="Script" id=1]
-[ext_resource path="res://Resources/SpellTrap/Trap_MirrorForce.tres" type="Resource" id=2]
-[ext_resource path="res://Resources/Monster/Monster_Kuriboh.tres" type="Resource" id=3]
-[ext_resource path="res://Resources/placeholder_card.tres" type="Resource" id=4]
-[ext_resource path="res://Resources/Monster/Monster_Flame_Swordsman.tres" type="Resource" id=5]
-[ext_resource path="res://Resources/SpellTrap/Spell_Mystical_Space_Typhoon.tres" type="Resource" id=6]
+[ext_resource type="Script" uid="uid://b4twj7dnmrdk4" path="res://Scripts/CardDatabase.gd" id="1_db"]
+[ext_resource type="Resource" path="res://Resources/placeholder_card.tres" id="2_placeholder"]
+[ext_resource type="Resource" path="res://Resources/Monster/Monster_Kuriboh.tres" id="3_kuriboh"]
+[ext_resource type="Resource" path="res://Resources/SpellTrap/Trap_MirrorForce.tres" id="4_mirror"]
+[ext_resource type="Resource" path="res://Resources/Monster/Monster_Flame_Swordsman.tres" id="5_flame"]
+[ext_resource type="Resource" path="res://Resources/SpellTrap/Spell_Mystical_Space_Typhoon.tres" id="6_mst"]
 
 [resource]
-script = ExtResource( 1 )
-card_resources = [ ExtResource( 4 ), ExtResource( 3 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 6 ) ]
+script = ExtResource("1_db")
+card_resources = Array[Resource]([ExtResource("2_placeholder"), ExtResource("3_kuriboh"), ExtResource("4_mirror"), ExtResource("5_flame"), ExtResource("6_mst")])

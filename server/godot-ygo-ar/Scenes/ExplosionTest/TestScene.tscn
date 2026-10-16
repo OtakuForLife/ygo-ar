@@ -1,63 +1,58 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=7 format=3]
 
-[ext_resource path="res://Scenes/ExplosionTest/CardTest.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/Images/Cards/Trap/mirror_force.png" type="Texture" id=3]
-[ext_resource path="res://Assets/Sound/destroy sound_fast.wav" type="AudioStream" id=4]
-[ext_resource path="res://Assets/Images/Cards/Monster/kuriboh.png" type="Texture" id=5]
+[ext_resource type="PackedScene" path="res://Scenes/ExplosionTest/CardTest.tscn" id="1_card"]
+[ext_resource type="Texture2D" uid="uid://c5sigo37vkqih" path="res://Assets/Images/Cards/Trap/mirror_force.png" id="3_mirror"]
+[ext_resource type="AudioStream" uid="uid://q7n11012l3pb" path="res://Assets/Sound/destroy sound_fast.wav" id="4_sound"]
+[ext_resource type="Texture2D" uid="uid://b6rgqxj15s5bu" path="res://Assets/Images/Cards/Monster/kuriboh.png" id="5_kuriboh"]
 
-[sub_resource type="GDScript" id=1]
-script/source = "extends Spatial
+[sub_resource type="GDScript" id="GDScript_root"]
+script/source = "extends Node3D
 
-onready var Cards = $Cards
-
-func _ready():
-	pass
-
+@onready var cards = $Cards
 
 func _input(event):
+	if event.is_echo():
+		return
 	if Input.is_action_just_pressed(\"ui_accept\"):
-		for card in Cards.get_children():
+		for card in cards.get_children():
 			card.explode()
 		$AudioStreamPlayer.play()
 	elif Input.is_action_just_pressed(\"ui_left\"):
-		for card in Cards.get_children():
+		for card in cards.get_children():
 			card.destroy()
 	elif Input.is_action_just_pressed(\"ui_right\"):
-		for card in Cards.get_children():
+		for card in cards.get_children():
 			card.reset()
 		$AudioStreamPlayer.stop()
 "
 
-[sub_resource type="GDScript" id=2]
-script/source = "extends Camera
+[sub_resource type="GDScript" id="GDScript_camera"]
+script/source = "extends Camera3D
 
 const DEBUG_MOUSE_SENSETIVITY = 0.2
 const DEBUG_MOVEMENT_SPEED = 0.2
 
-
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-
 
 func _input(event):
 	if event is InputEventMouseMotion and Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
 		var movement = event.relative
-		rotation.x += -deg2rad(movement.y * DEBUG_MOUSE_SENSETIVITY)
-		rotation.y += -deg2rad(movement.x * DEBUG_MOUSE_SENSETIVITY)
-	
+		rotation.x += -deg_to_rad(movement.y * DEBUG_MOUSE_SENSETIVITY)
+		rotation.y += -deg_to_rad(movement.x * DEBUG_MOUSE_SENSETIVITY)
 
-func _process(delta):
-	var cam_xform = get_global_transform()
-	var move_axis = Vector3()
-	var input_axis = Vector3()
-	input_axis.y = int(Input.is_action_pressed(\"cam_down\")) - int(Input.is_action_pressed(\"cam_up\"))
-	input_axis.x = int(Input.is_action_pressed(\"cam_right\")) - int(Input.is_action_pressed(\"cam_left\"))
-	input_axis.z = int(Input.is_action_pressed(\"move_up\"))
+func _process(_delta):
+	var cam_xform := global_transform
+	var input_axis := Vector3()
+	input_axis.y = float(int(Input.is_action_pressed(\"cam_down\")) - int(Input.is_action_pressed(\"cam_up\")))
+	input_axis.x = float(int(Input.is_action_pressed(\"cam_right\")) - int(Input.is_action_pressed(\"cam_left\")))
+	input_axis.z = float(int(Input.is_action_pressed(\"move_up\")))
 	input_axis = input_axis.normalized()
+	var move_axis := Vector3.ZERO
 	move_axis += cam_xform.basis.z * input_axis.y
 	move_axis += cam_xform.basis.x * input_axis.x
 	move_axis.y += input_axis.z
-	global_translate(move_axis.normalized()*DEBUG_MOVEMENT_SPEED)
+	global_position += move_axis.normalized() * DEBUG_MOVEMENT_SPEED
 	if Input.is_action_just_pressed(\"ui_cancel\"):
 		if Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
 			Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
@@ -65,31 +60,31 @@ func _process(delta):
 			Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 "
 
-[node name="Spatial" type="Spatial"]
-script = SubResource( 1 )
+[node name="Node3D" type="Node3D"]
+script = SubResource("GDScript_root")
 
-[node name="Cards" type="Spatial" parent="."]
+[node name="Cards" type="Node3D" parent="."]
 
-[node name="FlameSwordsman" parent="Cards" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.3707, 0, 0 )
+[node name="FlameSwordsman" parent="Cards" instance=ExtResource("1_card")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.3707, 0, 0)
 num_divisions = 100
 
-[node name="MirrorForce" parent="Cards" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0137129, 0, 0 )
+[node name="MirrorForce" parent="Cards" instance=ExtResource("1_card")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0137129, 0, 0)
 num_divisions = 100
-FrontTexture = ExtResource( 3 )
+FrontTexture = ExtResource("3_mirror")
 
-[node name="Kuriboh" parent="Cards" instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11.466, 0, 0 )
+[node name="Kuriboh" parent="Cards" instance=ExtResource("1_card")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.466, 0, 0)
 num_divisions = 100
-FrontTexture = ExtResource( 5 )
+FrontTexture = ExtResource("5_kuriboh")
 
-[node name="Camera" type="Camera" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.31464, 26.4244 )
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.31464, 26.4244)
 current = true
-script = SubResource( 2 )
+script = SubResource("GDScript_camera")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 4 )
+stream = ExtResource("4_sound")
 volume_db = -10.0
 pitch_scale = 1.2

@@ -7,9 +7,9 @@ enum CardType{
 	TRAP = 2
 }
 
-export(String) var card_name
-export(Texture) var card_image
-export(CardType) var card_type
-export(int) var card_monster_stars
-export(int) var card_monster_atk
-export(int) var card_monster_def
+@export var card_name: String
+@export var card_image: Texture2D
+@export var card_type: CardType
+@export var card_monster_stars: int
+@export var card_monster_atk: int
+@export var card_monster_def: int

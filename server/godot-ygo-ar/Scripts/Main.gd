@@ -1,11 +1,11 @@
-extends Spatial
+extends Node3D
 
 signal init(database)
 
 var card_database = preload("res://Resources/CardDatabase.tres")
 
-onready var player1_field = $Field/Player1
-onready var player2_field = $Field/Player2
+@onready var player1_field = $Field/Player1
+@onready var player2_field = $Field/Player2
 
 const DEFAULT_CARD = preload("res://Resources/Monster/Monster_Kuriboh.tres")
 

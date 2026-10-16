@@ -1,15 +1,13 @@
-[gd_resource type="Resource" load_steps=3 format=2]
+[gd_resource type="Resource" script_class="CardInfo" load_steps=3 format=3]
 
-[ext_resource path="res://Scripts/CardInfo.gd" type="Script" id=1]
-
-[sub_resource type="StreamTexture" id=1]
-flags = 19
+[ext_resource type="Script" uid="uid://jg4juegothdy" path="res://Scripts/CardInfo.gd" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://bm4wvqk623kjf" path="res://Assets/Images/Cards/placeholder.png" id="2_tex"]
 
 [resource]
-script = ExtResource( 1 )
+script = ExtResource("1_script")
 card_name = "Mystical Space Typhoon"
-card_image = SubResource( 1 )
-card_type = 0
+card_image = ExtResource("2_tex")
+card_type = 1
 card_monster_stars = 0
 card_monster_atk = 0
 card_monster_def = 0

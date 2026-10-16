@@ -9,7 +9,7 @@ func _ready():
 	print("Server starting...")
 	server.listen(4242)
 
-func _process(delta):
+func _process(_delta):
 	server.poll() # Important!
 	if server.is_connection_available():
 		var peer : PacketPeerUDP = server.take_connection()
@@ -23,8 +23,8 @@ func _process(delta):
 	
 	for pid in range(0, peers.size()):
 		var peer = peers[pid]
-		var msg: PoolByteArray = peer.get_packet()
-		if not msg.empty():
+		var msg: PackedByteArray = peer.get_packet()
+		if not msg.is_empty():
 			process_package(pid, msg)
 
 func process_package(player_id, package):
@@ -32,16 +32,16 @@ func process_package(player_id, package):
 	print("Packet Size: "+str(package.size()))
 	var buffer = StreamPeerBuffer.new()
 	
-	var action_bits = package.subarray(0, 7)
+	var action_bits = package.slice(0, 8)
 	buffer.set_data_array(action_bits)
 	var action_id = buffer.get_u8()
 	
-	var field_bits = package.subarray(8, 15)
+	var field_bits = package.slice(8, 16)
 	buffer = StreamPeerBuffer.new()
 	buffer.set_data_array(field_bits)
 	var field_id = buffer.get_u8()
 	
-	var card_bits = package.subarray(16, 31)
+	var card_bits = package.slice(16, 32)
 	buffer = StreamPeerBuffer.new()
 	buffer.set_data_array(card_bits)
 	var card_id = buffer.get_u16()

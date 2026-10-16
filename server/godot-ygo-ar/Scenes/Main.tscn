@@ -1,136 +1,133 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=6 format=3]
 
-[ext_resource path="res://Scenes/MovingCamera.gd" type="Script" id=1]
-[ext_resource path="res://Scripts/Main.gd" type="Script" id=2]
-[ext_resource path="res://Scripts/Server.gd" type="Script" id=3]
-[ext_resource path="res://Scenes/Field.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Scenes/TestUI.gd" type="Script" id=5]
+[ext_resource type="Script" uid="uid://b8chiuvrgoyl7" path="res://Scenes/MovingCamera.gd" id="1_cam"]
+[ext_resource type="Script" uid="uid://btgipw7svytn6" path="res://Scripts/Main.gd" id="2_main"]
+[ext_resource type="Script" uid="uid://drto4u461jxmb" path="res://Scripts/Server.gd" id="3_server"]
+[ext_resource type="PackedScene" path="res://Scenes/Field.tscn" id="4_field"]
+[ext_resource type="Script" uid="uid://ugrojsmyesc4" path="res://Scenes/TestUI.gd" id="5_ui"]
 
-[node name="Main" type="Spatial"]
-script = ExtResource( 2 )
+[node name="Main" type="Node3D"]
+script = ExtResource("2_main")
 
-[node name="ARVROrigin" type="ARVROrigin" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.464334, 8.70521, 18.0608 )
-script = ExtResource( 1 )
+[node name="XROrigin3D" type="XROrigin3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.464334, 8.70521, 18.0608)
+script = ExtResource("1_cam")
 
-[node name="ARVRCamera" type="ARVRCamera" parent="ARVROrigin"]
-transform = Transform( 1, 0, 2.84217e-14, 0, 1, 0, -5.68434e-14, 0, 1, 0, 0, 0 )
+[node name="XRCamera3D" type="XRCamera3D" parent="XROrigin3D"]
+transform = Transform3D(1, 0, 2.84217e-14, 0, 1, 0, -5.68434e-14, 0, 1, 0, 0, 0)
 current = true
 fov = 85.0
 
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.5, 0.866025, 0, -0.866025, 0.5, 0, 12, 0)
+shadow_enabled = true
+
 [node name="Server" type="Node" parent="."]
-script = ExtResource( 3 )
+script = ExtResource("3_server")
 
-[node name="Field" type="Spatial" parent="."]
+[node name="Field" type="Node3D" parent="."]
 
-[node name="Player1" parent="Field" instance=ExtResource( 4 )]
+[node name="Player1" parent="Field" instance=ExtResource("4_field")]
 
-[node name="Player2" parent="Field" instance=ExtResource( 4 )]
-transform = Transform( -1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 0, 0, 0 )
+[node name="Player2" parent="Field" instance=ExtResource("4_field")]
+transform = Transform3D(-1, 0, -3.25841e-07, 0, 1, 0, 3.25841e-07, 0, -1, 0, 0, 0)
 
-[node name="TestUI" type="Control" parent="."]
-size_flags_horizontal = 3
-size_flags_vertical = 3
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="UI" type="CanvasLayer" parent="."]
 
-[node name="MarginContainer2" type="MarginContainer" parent="TestUI"]
-margin_right = 605.0
-margin_bottom = 44.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="TestUI" type="Control" parent="UI"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("5_ui")
 
-[node name="ColorRect" type="ColorRect" parent="TestUI/MarginContainer2"]
-margin_right = 605.0
-margin_bottom = 44.0
-color = Color( 0.227451, 0.227451, 0.227451, 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="MarginContainer2" type="MarginContainer" parent="UI/TestUI"]
+layout_mode = 0
+offset_right = 605.0
+offset_bottom = 44.0
 
-[node name="MarginContainer" type="MarginContainer" parent="TestUI/MarginContainer2"]
-margin_right = 605.0
-margin_bottom = 44.0
-custom_constants/margin_right = 10
-custom_constants/margin_top = 10
-custom_constants/margin_left = 10
-custom_constants/margin_bottom = 10
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="ColorRect" type="ColorRect" parent="UI/TestUI/MarginContainer2"]
+layout_mode = 2
+offset_right = 605.0
+offset_bottom = 44.0
+color = Color(0.227451, 0.227451, 0.227451, 1)
 
-[node name="HBoxContainer" type="HBoxContainer" parent="TestUI/MarginContainer2/MarginContainer"]
-margin_left = 10.0
-margin_top = 10.0
-margin_right = 595.0
-margin_bottom = 34.0
-custom_constants/separation = 30
+[node name="MarginContainer" type="MarginContainer" parent="UI/TestUI/MarginContainer2"]
+layout_mode = 2
+offset_right = 605.0
+offset_bottom = 44.0
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UI/TestUI/MarginContainer2/MarginContainer"]
+layout_mode = 2
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 595.0
+offset_bottom = 34.0
+theme_override_constants/separation = 30
 alignment = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
-[node name="Player" type="OptionButton" parent="TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
-margin_left = 15.0
-margin_right = 83.0
-margin_bottom = 24.0
+[node name="Player" type="OptionButton" parent="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
+layout_mode = 2
+offset_left = 15.0
+offset_right = 83.0
+offset_bottom = 24.0
 focus_mode = 0
-enabled_focus_mode = 0
 text = "Player"
 
-[node name="Fields" type="OptionButton" parent="TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
-margin_left = 113.0
-margin_right = 173.0
-margin_bottom = 24.0
+[node name="Fields" type="OptionButton" parent="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
+layout_mode = 2
+offset_left = 113.0
+offset_right = 173.0
+offset_bottom = 24.0
 focus_mode = 0
-enabled_focus_mode = 0
 text = "Field"
 
-[node name="Cards" type="OptionButton" parent="TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
-margin_left = 203.0
-margin_right = 267.0
-margin_bottom = 24.0
+[node name="Cards" type="OptionButton" parent="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
+layout_mode = 2
+offset_left = 203.0
+offset_right = 267.0
+offset_bottom = 24.0
 focus_mode = 0
-enabled_focus_mode = 0
 text = "Cards"
 
-[node name="Action" type="OptionButton" parent="TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
-margin_left = 297.0
-margin_right = 367.0
-margin_bottom = 24.0
+[node name="Action" type="OptionButton" parent="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
+layout_mode = 2
+offset_left = 297.0
+offset_right = 367.0
+offset_bottom = 24.0
 focus_mode = 0
-enabled_focus_mode = 0
 text = "Action"
 
-[node name="Submit" type="Button" parent="TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
-margin_left = 397.0
-margin_right = 454.0
-margin_bottom = 24.0
+[node name="Submit" type="Button" parent="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
+layout_mode = 2
+offset_left = 397.0
+offset_right = 454.0
+offset_bottom = 24.0
 focus_mode = 0
-enabled_focus_mode = 0
 text = "Submit"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
-[node name="Clear" type="Button" parent="TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
-margin_left = 484.0
-margin_right = 569.0
-margin_bottom = 24.0
+[node name="Clear" type="Button" parent="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer"]
+layout_mode = 2
+offset_left = 484.0
+offset_right = 569.0
+offset_bottom = 24.0
 focus_mode = 0
-enabled_focus_mode = 0
 text = "Remove All"
 
-[connection signal="init" from="." to="TestUI" method="_on_Main_init"]
+[connection signal="init" from="." to="UI/TestUI" method="_on_Main_init"]
 [connection signal="on_player_action" from="Server" to="." method="_on_player_action_received"]
-[connection signal="clear_all" from="TestUI" to="." method="_on_TestUI_clear_all"]
-[connection signal="on_player_action" from="TestUI" to="." method="_on_player_action_received"]
-[connection signal="item_selected" from="TestUI/MarginContainer2/MarginContainer/HBoxContainer/Player" to="TestUI" method="_on_Player_item_selected"]
-[connection signal="item_selected" from="TestUI/MarginContainer2/MarginContainer/HBoxContainer/Fields" to="TestUI" method="_on_Fields_item_selected"]
-[connection signal="item_selected" from="TestUI/MarginContainer2/MarginContainer/HBoxContainer/Cards" to="TestUI" method="_on_OptionButton_item_selected"]
-[connection signal="item_selected" from="TestUI/MarginContainer2/MarginContainer/HBoxContainer/Action" to="TestUI" method="_on_Action_item_selected"]
-[connection signal="pressed" from="TestUI/MarginContainer2/MarginContainer/HBoxContainer/Submit" to="TestUI" method="_on_Button_pressed"]
-[connection signal="pressed" from="TestUI/MarginContainer2/MarginContainer/HBoxContainer/Clear" to="TestUI" method="_on_Clear_pressed"]
+[connection signal="clear_all" from="UI/TestUI" to="." method="_on_TestUI_clear_all"]
+[connection signal="on_player_action" from="UI/TestUI" to="." method="_on_player_action_received"]
+[connection signal="item_selected" from="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer/Player" to="UI/TestUI" method="_on_Player_item_selected"]
+[connection signal="item_selected" from="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer/Fields" to="UI/TestUI" method="_on_Fields_item_selected"]
+[connection signal="item_selected" from="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer/Cards" to="UI/TestUI" method="_on_OptionButton_item_selected"]
+[connection signal="item_selected" from="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer/Action" to="UI/TestUI" method="_on_Action_item_selected"]
+[connection signal="pressed" from="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer/Submit" to="UI/TestUI" method="_on_Button_pressed"]
+[connection signal="pressed" from="UI/TestUI/MarginContainer2/MarginContainer/HBoxContainer/Clear" to="UI/TestUI" method="_on_Clear_pressed"]
