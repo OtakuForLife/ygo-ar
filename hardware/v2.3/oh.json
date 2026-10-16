@@ -1,0 +1,172 @@
+[
+ {
+  "file": "arm_tile.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 70.6,
+  "bed_mm2": 5911.1,
+  "height": 8.0,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "backbone_A.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 0.0,
+  "bed_mm2": 13681.7,
+  "height": 15.2,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "backbone_B.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 0.0,
+  "bed_mm2": 36285.1,
+  "height": 15.2,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "bay.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 70.6,
+  "bed_mm2": 2916.8,
+  "height": 21.6,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "bay_lid.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 0.0,
+  "bed_mm2": 2987.4,
+  "height": 16.7,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "card_spring.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 0.0,
+  "bed_mm2": 122.9,
+  "height": 28.0,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "deck_pocket.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 90.0,
+  "bed_mm2": 3761.1,
+  "height": 99.4,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "disc_shell.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 110.0,
+  "bed_mm2": 21597.6,
+  "height": 38.7,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "gy_pocket.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 90.0,
+  "bed_mm2": 3122.6,
+  "height": 99.4,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "pin.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 0.0,
+  "bed_mm2": 13.8,
+  "height": 8.0,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "v28_base.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 83.1,
+  "bed_mm2": 17540.2,
+  "height": 27.5,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "v28_carrier.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 0.0,
+  "bed_mm2": 1440.4,
+  "height": 6.6,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "v28_cover.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 23.6,
+  "bed_mm2": 7615.8,
+  "height": 3.5,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "v28_deck.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 31.3,
+  "bed_mm2": 12948.4,
+  "height": 9.8,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "v28_st_ceiling.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 0.0,
+  "bed_mm2": 17510.4,
+  "height": 2.5,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "v28_st_tray.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 1.0,
+  "bed_mm2": 5466.8,
+  "height": 3.8,
+  "tall_thin": false,
+  "details": []
+ },
+ {
+  "file": "v28_turntable.stl",
+  "unsupported_mm2": 0.0,
+  "islands": 0,
+  "bridges_mm2": 0.0,
+  "bed_mm2": 10476.8,
+  "height": 3.5,
+  "tall_thin": false,
+  "details": []
+ }
+]

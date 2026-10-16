@@ -1,0 +1,3285 @@
+{
+ "passed": 467,
+ "total": 467,
+ "all_pass": true,
+ "overall": {
+  "size": [
+   363.6,
+   240.0,
+   67.8
+  ],
+  "disc_d": 240.0,
+  "disc_h": 38.75
+ },
+ "checks": [
+  {
+   "check": "Kollision deck_pocket / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / v28_base",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / v28_st_tray",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / v28_st_ceiling",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / v28_deck",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / v28_carrier",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_pocket / v28_cover",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / v28_base",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / v28_st_tray",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / v28_st_ceiling",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / v28_deck",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / v28_carrier",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_pocket / v28_cover",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / v28_base",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / v28_st_tray",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / v28_st_ceiling",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / v28_deck",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / v28_carrier",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision deck_spring / v28_cover",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / v28_base",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / v28_st_tray",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / v28_st_ceiling",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / v28_deck",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / v28_carrier",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision gy_spring / v28_cover",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / v28_base",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / v28_st_tray",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / v28_st_ceiling",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / v28_deck",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / v28_carrier",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision disc_shell / v28_cover",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision arm_tile / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision arm_tile / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision arm_tile / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision arm_tile / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision arm_tile / v28_base",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision arm_tile / v28_st_tray",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision arm_tile / v28_st_ceiling",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision arm_tile / v28_deck",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision arm_tile / v28_carrier",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision arm_tile / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision arm_tile / v28_cover",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay / v28_base",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay / v28_st_tray",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay / v28_st_ceiling",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay / v28_deck",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay / v28_carrier",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay / v28_cover",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay_lid / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay_lid / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay_lid / v28_base",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay_lid / v28_st_tray",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay_lid / v28_st_ceiling",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay_lid / v28_deck",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay_lid / v28_carrier",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay_lid / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision bay_lid / v28_cover",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_A / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_A / v28_base",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_A / v28_st_tray",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_A / v28_st_ceiling",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_A / v28_deck",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_A / v28_carrier",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_A / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_A / v28_cover",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_B / v28_base",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_B / v28_st_tray",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_B / v28_st_ceiling",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_B / v28_deck",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_B / v28_carrier",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_B / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision backbone_B / v28_cover",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_base / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_st_tray / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_st_ceiling / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_deck / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_carrier / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_turntable / v28_cover",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_esp32 / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_esp32 / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_esp32 / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_esp32 / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_esp32 / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_esp32 / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_esp32 / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_esp32 / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_esp32 / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_esp32 / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_esp32 / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_dupont / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_dupont / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_dupont / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_dupont / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_dupont / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_dupont / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_dupont / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_dupont / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_dupont / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_dupont / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_dupont / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_usb_plug / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_usb_plug / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_usb_plug / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_usb_plug / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_usb_plug / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_usb_plug / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_usb_plug / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_usb_plug / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_usb_plug / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_usb_plug / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_usb_plug / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_deck_cards / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_deck_cards / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_deck_cards / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_deck_cards / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_deck_cards / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_deck_cards / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_deck_cards / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_deck_cards / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_deck_cards / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_deck_cards / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_deck_cards / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_gy_cards / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_gy_cards / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_gy_cards / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_gy_cards / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_gy_cards / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_gy_cards / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_gy_cards / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_gy_cards / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_gy_cards / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_gy_cards / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_gy_cards / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_strap_A / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_strap_A / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_strap_A / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_strap_A / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_strap_A / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_strap_A / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_strap_A / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_strap_A / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_strap_A / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_strap_A / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision dummy_strap_A / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_l / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_l / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_l / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_l / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_l / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_l / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_l / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_l / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_l / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_l / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_l / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_u / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_u / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_u / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_u / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_u / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_u / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_u / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_u / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_u / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_u / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_rc522_u / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ferrite / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ferrite / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ferrite / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ferrite / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ferrite / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ferrite / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ferrite / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ferrite / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ferrite / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ferrite / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ferrite / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sst / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sst / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sst / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sst / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sst / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sst / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sst / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sst / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sst / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sst / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sst / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ss / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ss / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ss / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ss / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ss / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ss / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ss / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ss / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ss / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ss / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_ss / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sw_body / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sw_body / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sw_body / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sw_body / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sw_body / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sw_body / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sw_body / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sw_body / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sw_body / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sw_body / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_sw_body / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card_st_sl / deck_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card_st_sl / gy_pocket",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card_st_sl / deck_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card_st_sl / gy_spring",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card_st_sl / disc_shell",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card_st_sl / arm_tile",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card_st_sl / bay",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card_st_sl / bay_lid",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card_st_sl / backbone_A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card_st_sl / backbone_B",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kollision v28_dummy_card_st_sl / v28_turntable",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Drehteller-Huelle (+0.5) frei von Gehaeuse (alle Winkel)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Fenster R59 >= halbe Kartendiagonale (Monster laengs/quer einlegbar)",
+   "value": 52.15,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "S/T-Einsteckweg zum Koerper frei (Maul 80)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Fingerraum am S/T-Maul",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Monster-Schalter von oben bedienbar (Loch in der Haut)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Deckelschraube (60.5,60.5) von der Haut verdeckt",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Deckelschraube (60.5,-60.5) von der Haut verdeckt",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Deckelschraube (-60.5,60.5) von der Haut verdeckt",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Deckelschraube (-60.5,-60.5) von der Haut verdeckt",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Gehaeuseschraube (90.1067,63.0934) nur von unten",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Gehaeuseschraube (90.1067,-63.0934) nur von unten",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Gehaeuseschraube (55,95.2628) nur von unten",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Gehaeuseschraube (55,-95.2628) nur von unten",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Gehaeuseschraube (-55,-95.2628) nur von unten",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Schrauben gesamt (alle von unten / Senkkopf innen in der Kartenbox)",
+   "value": "13 + 0",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Fuge Bucht <-> Kachel",
+   "value": 0.3,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Fuge Deck-Huelse <-> Kachel",
+   "value": 0.3,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Klebefuge Deck-Huelse <-> Friedhof-Huelse",
+   "value": 0.2,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Fuge Gehaeuse <-> Stapel seitlich",
+   "value": 0.3,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Fuge Gehaeuse <-> Deck-Huelse",
+   "value": 0.3,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Fuge Traeger A <-> B",
+   "value": 0.3,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "ESP32 Abstand Wand X (beide)",
+   "value": 5.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "ESP32 Abstand Wand Y (beide)",
+   "value": 5.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Luft ueber Platine bis Bucht-Deckel",
+   "value": 15.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "ESP32 -> unterer RC522",
+   "value": 67.971,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "ESP32 -> oberer RC522",
+   "value": 40.692,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Ferrit-Oberseite -> obere Antenne (v2.8)",
+   "value": 5.2,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Ferrit -> obere Platine (Dummies)",
+   "value": 1.2,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Kabelkanal Leser 2x7 frei",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Kabelkanal Schalter 3x2 (IO26 frei) frei",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "USB-C-Stecker-Huelle frei",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "USB-Kabel-Kerbe im Rand offen",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Deck: Stapel 40 mm = 60 Karten mit Sleeve",
+   "value": 40.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Deck: offen auf der +Y-Seite (vorne, vom Koerper weg)",
+   "value": 50.26,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Deck: Spiel seitlich je Seite",
+   "value": 0.75,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Deck: voller Stapel frei von allen Teilen (an der Decke, Feder darunter)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Deck: Federweg deckt leer..voll..druecken ab (h frei/leer/voll/druecken)",
+   "value": "47.9 / 44.3 / 4.3 / 1.8",
+   "ok": true,
+   "unit": "mm",
+   "note": "Mittellinie Federspitze ueber Wurzel, mm"
+  },
+  {
+   "check": "Deck: Feder druckt auch die letzte Karte an die Decke (Vorspannung leer)",
+   "value": 3.56,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Deck: Federkraft leer vs. 1 Karte",
+   "value": "0.61 N / 0.026 N",
+   "ok": true,
+   "unit": "mm",
+   "note": "x23"
+  },
+  {
+   "check": "Deck: Federkraft voll vs. voller Stapel (60 Karten)",
+   "value": "6.05 N / 1.59 N",
+   "ok": true,
+   "unit": "mm",
+   "note": "x3.8 (haelt aufrecht bis 3.8 g Beschleunigung an der Decke)"
+  },
+  {
+   "check": "Deck: Druckkraft zum Herausnehmen (Stapel ganz runter)",
+   "value": "9.3 N",
+   "ok": true,
+   "unit": "mm",
+   "note": "Daumen durch den Griffausschnitt"
+  },
+  {
+   "check": "Deck: Feder-Dehnung max (Rollfeder, flach = t/2R)",
+   "value": "1.00 %",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Deck: Feder (voll belastet) endet vor der Bodenlippe",
+   "value": 43.03,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Deck: Feder ganz flach endet vor der Bodenlippe",
+   "value": 44.45,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Deck: Federspitze (frei..flach) liegt unter dem Griffausschnitt (Druckpunkt = Haltepunkt an der Kante)",
+   "value": "20.0..44.5",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Deck: Feder-Volumen plausibel (Bogen vorhanden)",
+   "value": 3442.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Deck: Feder im Kanal frei (Kollision)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Deck: Federfuss klebt im Kanal (Abstand)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Deck: Halte-Kante 2 sperrt die obersten Karten (an der Decke)",
+   "value": 28.05,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Deck: gedrueckt: oberste Karte 0.5 unter der Kante (Luft)",
+   "value": 0.5,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Deck: gedrueckt: oberste Karte gleitet heraus (Weg frei bis auf Klemmrippen)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Deck: Weg frei vom Gurt A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Deck: Dach am offenen Ende ausgeschnitten (58 x 45)",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Deck: Dach sonst geschlossen",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Deck: Ausschnitt 58 < Karte 67 (nichts faellt oben heraus)",
+   "value": 5.25,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Deck: Bodenlippe 1.5 sperrt die unterste Karte",
+   "value": 101.05,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Deck: Klemmrippen beidseitig auf z 10.1",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Deck: Klemmrippen beidseitig auf z 28.1",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Stapel 30 mm = 45 Karten mit Sleeve",
+   "value": 30.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: offen auf der -Y-Seite (hinten, zum Koerper)",
+   "value": -50.26,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Spiel seitlich je Seite",
+   "value": 0.75,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: voller Stapel frei von allen Teilen (an der Decke, Feder darunter)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Federweg deckt leer..voll..druecken ab (h frei/leer/voll/druecken)",
+   "value": "47.9 / 34.3 / 4.3 / 1.8",
+   "ok": true,
+   "unit": "mm",
+   "note": "Mittellinie Federspitze ueber Wurzel, mm"
+  },
+  {
+   "check": "Friedhof: Feder druckt auch die letzte Karte an die Decke (Vorspannung leer)",
+   "value": 13.56,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Federkraft leer vs. 1 Karte",
+   "value": "1.79 N / 0.026 N",
+   "ok": true,
+   "unit": "mm",
+   "note": "x68"
+  },
+  {
+   "check": "Friedhof: Federkraft voll vs. voller Stapel (45 Karten)",
+   "value": "6.05 N / 1.19 N",
+   "ok": true,
+   "unit": "mm",
+   "note": "x5.1 (haelt aufrecht bis 5.1 g Beschleunigung an der Decke)"
+  },
+  {
+   "check": "Friedhof: Druckkraft zum Herausnehmen (Stapel ganz runter)",
+   "value": "9.3 N",
+   "ok": true,
+   "unit": "mm",
+   "note": "Daumen durch den Griffausschnitt"
+  },
+  {
+   "check": "Friedhof: Feder-Dehnung max (Rollfeder, flach = t/2R)",
+   "value": "1.00 %",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Feder (voll belastet) endet vor der Bodenlippe",
+   "value": 43.03,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Feder ganz flach endet vor der Bodenlippe",
+   "value": 44.45,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Federspitze (frei..flach) liegt unter dem Griffausschnitt (Druckpunkt = Haltepunkt an der Kante)",
+   "value": "20.0..44.5",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Feder-Volumen plausibel (Bogen vorhanden)",
+   "value": 3442.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Feder im Kanal frei (Kollision)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Federfuss klebt im Kanal (Abstand)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Halte-Kante 2 sperrt die obersten Karten (an der Decke)",
+   "value": 28.05,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: gedrueckt: oberste Karte 0.5 unter der Kante (Luft)",
+   "value": 0.5,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: gedrueckt: oberste Karte gleitet heraus (Weg frei bis auf Klemmrippen)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Weg frei vom Gurt A",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Dach am offenen Ende ausgeschnitten (58 x 45)",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Dach sonst geschlossen",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Ausschnitt 58 < Karte 67 (nichts faellt oben heraus)",
+   "value": 5.25,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Bodenlippe 1.5 sperrt die unterste Karte",
+   "value": 101.05,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Klemmrippen beidseitig auf z 10.1",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Friedhof: Klemmrippen beidseitig auf z 23.1",
+   "value": true,
+   "ok": true,
+   "unit": "",
+   "note": ""
+  },
+  {
+   "check": "Lage kopfueber: Stapel faellt gegen die Decke, Halte-Kante + Stege (5.25) halten",
+   "value": "Kante 2",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Lage Oeffnung nach unten: Karten muessten unter der Kante durch -> nur mit Druck auf den Stapel",
+   "value": "0.6 N",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Feder: Material/Steifigkeit Annahme E=3500 MPa (PLA), Kraefte +-30 %",
+   "value": "Elastica",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Feder Dicke >= 1.2 / gedruckt auf der Seite (Biegung entlang der Bahnen)",
+   "value": 1.2,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Gurt A laeuft frei durch den Tunnel unter der Deck-Huelse",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Drehteller-Finger Karte 59 (ohne Sleeve): Auslenkung / Dehnung",
+   "value": "0.50 mm / 0.16 %",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Monsterkarte Karte 59 (ohne Sleeve) kopfueber: Reibhalt vs. Gewicht",
+   "value": "0.230 N / 0.018 N",
+   "ok": true,
+   "unit": "mm",
+   "note": "2 Finger, Klemmung zwischen Finger und Gegenwand, mu 0.3"
+  },
+  {
+   "check": "Drehteller-Finger Karte -0.2: Auslenkung / Dehnung",
+   "value": "0.30 mm / 0.09 %",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Monsterkarte Karte -0.2 kopfueber: Reibhalt vs. Gewicht",
+   "value": "0.138 N / 0.018 N",
+   "ok": true,
+   "unit": "mm",
+   "note": "2 Finger, Klemmung zwischen Finger und Gegenwand, mu 0.3"
+  },
+  {
+   "check": "Drehteller-Finger Karte +0.2: Auslenkung / Dehnung",
+   "value": "0.70 mm / 0.22 %",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Monsterkarte Karte +0.2 kopfueber: Reibhalt vs. Gewicht",
+   "value": "0.322 N / 0.018 N",
+   "ok": true,
+   "unit": "mm",
+   "note": "2 Finger, Klemmung zwischen Finger und Gegenwand, mu 0.3"
+  },
+  {
+   "check": "Drehteller-Finger Dicke",
+   "value": 1.2,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Monsterkarte Neigung 15 Grad: gehalten (Mulde 1.5 + Finger)",
+   "value": "Rand",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Monsterkarte Neigung 30 Grad: gehalten (Mulde 1.5 + Finger)",
+   "value": "Rand",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Monsterkarte Neigung 45 Grad: gehalten (Mulde 1.5 + Finger)",
+   "value": "Rand",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Monsterkarte Neigung 60 Grad: gehalten (Mulde 1.5 + Finger)",
+   "value": "Rand",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Monsterkarte Neigung 90 Grad: gehalten (Mulde 1.5 + Finger)",
+   "value": "Finger",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Monsterkarte Neigung 135 Grad: gehalten (Mulde 1.5 + Finger)",
+   "value": "Finger",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Monsterkarte Neigung 180 Grad: gehalten (Mulde 1.5 + Finger)",
+   "value": "Finger",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "S/T-Karte Neigung 30 Grad (v2.8-Klemmfeder 0.061 N ohne / 0.517 N mit Sleeve, Gewicht 0.018 / 0.026)",
+   "value": "x3.4 / x19.9",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "S/T-Karte Neigung 45 Grad (v2.8-Klemmfeder 0.061 N ohne / 0.517 N mit Sleeve, Gewicht 0.018 / 0.026)",
+   "value": "x3.4 / x19.9",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "S/T-Karte Neigung 90 Grad (v2.8-Klemmfeder 0.061 N ohne / 0.517 N mit Sleeve, Gewicht 0.018 / 0.026)",
+   "value": "x3.4 / x19.9",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "S/T-Karte Neigung 180 Grad (v2.8-Klemmfeder 0.061 N ohne / 0.517 N mit Sleeve, Gewicht 0.018 / 0.026)",
+   "value": "x3.4 / x19.9",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Drehteller geaendert nur bei r <= 47 (Nocke/Lager unveraendert)",
+   "value": 45.61,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Drehteller Hoehe/Boden unveraendert (Antenne -> Karte 4.3)",
+   "value": "34.450 / 34.450",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Monsterkarte (Dummy mittig) vs. Finger: Klemmung vorhanden",
+   "value": 2.25,
+   "ok": true,
+   "unit": "mm3 Ueberdeckung",
+   "note": "Zahn steht 2.0 in die Mulde; Karte wird zur Gegenwand gedrueckt"
+  },
+  {
+   "check": "deck_pocket steht auf dem Traeger (Klebeflaeche z=0)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "deck_pocket Klebeflaeche auf dem Traeger",
+   "value": 4572.0,
+   "ok": true,
+   "unit": "mm2",
+   "note": ""
+  },
+  {
+   "check": "gy_pocket steht auf dem Traeger (Klebeflaeche z=0)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "gy_pocket Klebeflaeche auf dem Traeger",
+   "value": 7286.0,
+   "ok": true,
+   "unit": "mm2",
+   "note": ""
+  },
+  {
+   "check": "Keine Presssitze: Stiftloch = Stift + Vyper 0.3 + 2 x Klebespalt 0.2",
+   "value": 5.7,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bucht-Deckel lose (Spiel je Seite, vom Gehaeuse gehalten)",
+   "value": 0.2,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bucht-Deckel von 2 Niederhaltern gehalten (Luft <= 0.6 < Lippe 3)",
+   "value": 0.3,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand wall",
+   "value": 2.4,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand rim_w",
+   "value": 1.6,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand skin",
+   "value": 1.8,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand bay_floor",
+   "value": 2.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand lid_t",
+   "value": 2.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand lid_lip_w",
+   "value": 1.6,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand pt",
+   "value": 1.6,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand arch_min",
+   "value": 2.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand rib_t",
+   "value": 2.4,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand pk_wall",
+   "value": 2.4,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand pk_roof",
+   "value": 2.0,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand pk_end",
+   "value": 2.4,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand tun_roof",
+   "value": 1.6,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Wand sp_t",
+   "value": 1.2,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Kachel (45,60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Kachel (45,-60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Kachel (-45,60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Kachel (-45,-60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Stiftloch Kachel (0,60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Stiftloch Kachel (0,-60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Bucht (-30.5,105.2)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Bucht (-30.5,71.2)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Bucht (30.5,105.2)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Bucht (30.5,71.2)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Stiftloch Bucht (-22.5,104.4)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Stiftloch Bucht (-22.5,72)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Gehaeuse (90.1067,63.0934)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Gehaeuse (90.1067,-63.0934)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Gehaeuse (55,95.2628)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Gehaeuse (55,-95.2628)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Kernloch Gehaeuse (-55,-95.2628)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Stiftloch Traeger (0,60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Stiftloch Traeger (0,-60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Stiftloch Traeger (-22.5,104.4)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Stiftloch Traeger (-22.5,72)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (45,60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (45,-60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (-45,60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (-45,-60.5)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (-30.5,105.2)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (-30.5,71.2)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (30.5,105.2)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (30.5,71.2)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (90.1067,63.0934)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (90.1067,-63.0934)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (55,95.2628)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (55,-95.2628)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Ring >=1.2 Schraubloch Traeger (-55,-95.2628)",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Unterarm-Bogen Pfeilhoehe (R 50, Sehne 64)",
+   "value": 11.58,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Material ueber Bogenscheitel",
+   "value": 3.6,
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Gurtschlitz 1 (x -110) oben frei",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Gurtschlitz 1 durchgehend",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Gurtschlitz 2 (x -110) oben frei",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Gurtschlitz 2 durchgehend",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Gurtschlitz 3 (x 136) oben frei",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Gurtschlitz 3 durchgehend",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Gurtschlitz 4 (x 136) oben frei",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Gurtschlitz 4 durchgehend",
+   "value": 0.0,
+   "ok": true,
+   "unit": "mm3",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: arm_tile.stl",
+   "value": "133.0 x 133.0 x 8.0",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: backbone_A.stl",
+   "value": "129.4 x 122.5 x 15.2",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: backbone_B.stl",
+   "value": "233.9 x 240.0 x 15.2",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: bay.stl",
+   "value": "69.8 x 42.8 x 21.6",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: bay_lid.stl",
+   "value": "69.8 x 42.8 x 16.7",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: card_spring.stl",
+   "value": "48.6 x 67.3 x 28.0",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: deck_pocket.stl",
+   "value": "73.3 x 52.6 x 99.4",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: disc_shell.stl",
+   "value": "186.5 x 233.1 x 38.7",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: gy_pocket.stl",
+   "value": "73.3 x 42.6 x 99.4",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: pin.stl",
+   "value": "5.0 x 5.0 x 8.0",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: v28_base.stl",
+   "value": "133.0 x 133.0 x 27.5",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: v28_carrier.stl",
+   "value": "51.4 x 71.4 x 6.6",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: v28_cover.stl",
+   "value": "133.0 x 133.0 x 3.5",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: v28_deck.stl",
+   "value": "133.0 x 133.0 x 9.8",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: v28_st_ceiling.stl",
+   "value": "133.0 x 133.0 x 2.5",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: v28_st_tray.stl",
+   "value": "74.6 x 80.0 x 3.8",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Bett 245x245: v28_turntable.stl",
+   "value": "115.4 x 115.4 x 3.5",
+   "ok": true,
+   "unit": "mm",
+   "note": ""
+  },
+  {
+   "check": "Gesamtmass",
+   "value": "363.6 x 240.0 x 67.8",
+   "ok": true,
+   "unit": "mm",
+   "note": "Scheibe D240, Oberkante 38.75 ueber Traeger"
+  }
+ ]
+}
